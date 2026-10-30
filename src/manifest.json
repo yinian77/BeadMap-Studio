@@ -1,0 +1,26 @@
+{
+  "name": "豆图工坊",
+  "appid": "",
+  "description": "拼豆图纸生成、色号匹配与豆子库存管理",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "vueVersion": "3",
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "minified": true,
+      "postcss": true
+    },
+    "usingComponents": true,
+    "darkmode": false
+  },
+  "h5": {
+    "title": "豆图工坊",
+    "router": {
+      "mode": "hash"
+    }
+  }
+}

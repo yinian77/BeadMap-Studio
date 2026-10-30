@@ -1,0 +1,35 @@
+/**
+ * 全局 SCSS 变量
+ * uni-app 会自动把本文件注入到每个 <style lang="scss"> 中，无需手动 @import。
+ */
+
+/* 品牌色 */
+$bm-primary: #ff7a5c;
+$bm-primary-deep: #e85f41;
+$bm-primary-soft: #ffe9e2;
+$bm-mint: #35c6b4;
+$bm-yellow: #ffc845;
+$bm-purple: #9b8cf0;
+
+/* 中性色 */
+$bm-bg: #fff8f3;
+$bm-card: #ffffff;
+$bm-text: #2e2a28;
+$bm-text-sub: #7a726c;
+$bm-text-light: #a89f98;
+$bm-border: #f2e6dc;
+
+/* 结构 */
+$bm-radius: 24rpx;
+$bm-radius-sm: 12rpx;
+$bm-gap: 24rpx;
+$bm-shadow: 0 8rpx 24rpx rgba(120, 92, 72, 0.08);
+
+/* uni-app 内置变量（部分组件依赖，保持默认值即可） */
+$uni-color-primary: $bm-primary;
+$uni-color-success: $bm-mint;
+$uni-color-warning: $bm-yellow;
+$uni-text-color: $bm-text;
+$uni-text-color-grey: $bm-text-sub;
+$uni-bg-color: $bm-card;
+$uni-border-color: $bm-border;
